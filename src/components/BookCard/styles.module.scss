@@ -1,0 +1,46 @@
+.main {
+  padding: 10px;
+  margin: 0 0 10px 0;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  background-color: #181c2a;
+
+  display: flex;
+  flex-direction: row;
+  flex-direction: space-between;
+}
+
+.bookMain {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    padding-right: 15px;
+    width: 80px;
+  }
+}
+
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #f8f9fc;
+  }
+
+  h3 {
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: #8d95af;
+    margin-bottom: 34px;
+  }
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 7px;
+}

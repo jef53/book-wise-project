@@ -1,0 +1,14 @@
+.main {
+  margin: 0;
+
+  .bookBlock {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+  }
+  h1 {
+    font-size: 0.85rem;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+}

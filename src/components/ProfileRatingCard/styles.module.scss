@@ -1,0 +1,59 @@
+.reviewDate {
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+  font-weight: 100;
+  color: #d1d6e4;
+}
+
+.bookMain {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: #181c2a;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.upperSection {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 100%;
+
+  img {
+    padding-right: 15px;
+    width: 100px;
+  }
+}
+
+.bottomSection {
+  p {
+    font-size: 0.75rem;
+    color: #d1d6e4;
+  }
+}
+
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #f8f9fc;
+  }
+
+  h3 {
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: #8d95af;
+    margin-bottom: 34px;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 7px;
+    margin-top: auto;
+  }
+}

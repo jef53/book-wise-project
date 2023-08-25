@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  .headerInput {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    border: #303f73 1px solid;
+    cursor: text;
+    input {
+      width: 100%;
+      background: none;
+      border: none;
+      color: rgb(199, 199, 199);
+    }
+
+    &:focus-within {
+      border: #475eb1 1px solid;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    span {
+      color: #303f73;
+      width: 20px;
+    }
+  }
+}
+
+.navBar {
+  width: 100%;
+  margin: 20px 0 40px 0;
+}
+
+.navBar span {
+  margin: 0 5px;
+  padding: 5px 9px;
+  font-size: 0.75rem;
+  border: #8381d9 1px solid;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.onActive {
+  background-color: #2a2879;
+  color: #f8f9fc;
+  transition: 0.1s;
+}
+
+.inactive {
+  background: none;
+  color: #8381d9;
+}

@@ -1,0 +1,63 @@
+.main {
+  position: relative;
+  padding: 10px;
+  margin: 0px 10px 10px 0;
+  width: 318px;
+  height: 152px;
+  border: none;
+  border-radius: 5px;
+  background-color: #181c2a;
+  display: flex;
+  flex-direction: row;
+  flex-direction: space-between;
+  cursor: pointer;
+}
+
+.bookMain {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    padding-right: 15px;
+    width: 100px;
+  }
+}
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    width: 120px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #f8f9fc;
+  }
+
+  h3 {
+    font-size: 0.65rem;
+    font-weight: 300;
+    color: #8d95af;
+  }
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.read {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: #0a313c;
+  color: #50b2c0;
+  font-size: 0.65rem;
+  font-weight: 700;
+}

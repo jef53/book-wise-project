@@ -1,0 +1,89 @@
+.Container {
+  width: 234px;
+  height: calc(100% - 40px);
+  margin: 20px;
+  background-image: url("/images/sidebar-bg.png");
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    padding: 0;
+    margin: 12px 0;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    color: rgb(86, 91, 124);
+  }
+  svg {
+    margin: 0 10px 0 15px;
+    color: gray;
+  }
+
+  a:hover {
+    background-color: rgba(130, 129, 194, 0.096);
+    transition: 0.7s;
+    border-radius: 10px;
+  }
+
+  img {
+    width: 140px;
+  }
+}
+
+.activeLink {
+  border-left-style: solid;
+  border-left-width: 4px;
+  border-image: linear-gradient(0deg, rgba(22, 203, 255, 1) 0%, rgba(185, 147, 255, 1)) 1;
+
+  p {
+    color: white;
+  }
+
+  svg {
+    color: white;
+  }
+}
+
+.loginAndLogout {
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 10px;
+  color: rgb(214, 214, 214);
+  cursor: pointer;
+  img {
+    margin: 0 10px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    border: 2px solid rgba(64, 160, 224, 0.74);
+  }
+
+  .sessionIcon {
+    border: none;
+  }
+}
+
+.loginAndLogout:hover {
+  background-color: rgba(88, 87, 158, 0.185);
+  transition: 0.7s;
+}

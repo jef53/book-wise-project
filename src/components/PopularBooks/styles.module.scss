@@ -1,0 +1,23 @@
+.main {
+  margin: 0 auto;
+  padding: 0 20px;
+
+  h1 {
+    font-size: 0.85rem;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  p {
+    color: #8381d9;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}

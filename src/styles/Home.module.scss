@@ -1,0 +1,13 @@
+.bg {
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+  height: 100%;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.main {
+}

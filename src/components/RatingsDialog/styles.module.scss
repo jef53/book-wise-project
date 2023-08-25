@@ -1,0 +1,132 @@
+.main {
+  overflow-y: auto;
+}
+
+.bookContainer {
+  background-color: #181c2a;
+  border: none;
+  border-radius: 10px;
+  margin: 14px 0 35px 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 1rem;
+    width: 95%;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+    color: #d1d6e4;
+    font-weight: 400;
+    margin-bottom: 90px;
+  }
+
+  h6 {
+    margin-top: 6px;
+    font-size: 0.7rem;
+    color: #8d95af;
+  }
+}
+
+.upperInfo {
+  border-bottom: 1px #2b3b77c5 solid;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 35px 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      margin: 0 11px;
+    }
+  }
+
+  .footerContainerInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    h4 {
+      color: #d1d6e4;
+      font-weight: 300;
+    }
+
+    p {
+      color: #e6e8f2;
+      font-weight: 700;
+    }
+  }
+}
+
+.bookCover {
+  width: 140px;
+  margin-right: 25px;
+}
+
+.Overlay {
+  position: fixed;
+  inset: 0;
+  background: #00000099;
+}
+
+.Content {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 660px;
+  height: 100%;
+  background-color: #0e1116;
+  border: none;
+  padding: 6px 48px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+}
+
+.Close {
+  width: 24px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-top: 18px;
+  svg {
+    color: rgba(255, 255, 255, 0.445);
+  }
+}
+
+.reviewSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  h6 {
+    font-size: 0.78rem;
+    font-weight: 300;
+    color: #e6e8f2;
+  }
+
+  button {
+    background: none;
+    border: none;
+    color: #8381d9;
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+}
